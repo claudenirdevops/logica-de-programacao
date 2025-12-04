@@ -1,2 +1,2 @@
 # brisa-logica-de-programacao
-Lógica de Programação
+Curso de Lógica de Programação
