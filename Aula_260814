@@ -5,3 +5,31 @@ negação (não): ¬ ou ~
 disjunção (ou): v
 Conjunção (e): ^
 condicional (se, então): ->
+
+Respostas:
+
+1.a) P
+1.b) P
+1.c) I
+1.d) P
+1.e) M
+1.f) I
+1.g) P
+1.h) E
+
+2.a) A ^ B
+A: 2 é par
+B: 3 é impar
+
+2.b) A v B
+A: 4 é número par
+B: 7 é número par
+
+2.c) ¬ A -> B
+A: quatro é número par
+B: cinco é número par
+
+2.d) A ^ B -> C
+A: dois é par
+B: quatro é par
+B: oito é número par
