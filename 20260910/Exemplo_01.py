@@ -19,8 +19,7 @@ token_acesso = "SENAC-2026-POA"
 total_hifens = 0
 total_digitos = 0
 total_letras = 0
-print(f"Inspecionando os caracteres da chave:
-'{token_acesso}'\n")
+print(f"Inspecionando os caracteres da chave:{token_acesso}\n")
 
 # O laço for retira um caractere por vez da string
 for caractere in token_acesso:
