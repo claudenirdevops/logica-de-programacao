@@ -13,6 +13,6 @@ valor = float(input('Digite o valor gasto: '))
 while valor > 0 :
     gastos += valor
     print(gastos)
-    valor = float(input('Digite o valor gasto: '))
+    valor = float(input('Digite o valor gasto ou zero para para encerrar: '))
 
 print(f'\nGastos Totais: {gastos}')
