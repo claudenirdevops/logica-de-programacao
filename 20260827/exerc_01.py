@@ -13,3 +13,4 @@ else:
 
 print(mensagem)
 
+print(f'Você tem {idade} anos.')
