@@ -1,0 +1,59 @@
+Index: DT260827/if_else.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DT260827/if_else.py b/DT260827/if_else.py
+new file mode 100644
+--- /dev/null	(date 1787873848544)
++++ b/DT260827/if_else.py	(date 1787873848544)
+@@ -0,0 +1,7 @@
++v = int(input('Digite um valor (v): '))
++x = int(input('Digite um valor (x): '))
++
++if v > x:
++    print(f'v={v} é maior que x={x}')
++else:
++    print(f'x={x} é maior que v={v}')
+\ No newline at end of file
+Index: DT260827/elif.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DT260827/elif.py b/DT260827/elif.py
+new file mode 100644
+--- /dev/null	(date 1787874193098)
++++ b/DT260827/elif.py	(date 1787874193098)
+@@ -0,0 +1,9 @@
++v = int(input('Digite um valor (v): '))
++x = int(input('Digite um valor (x): '))
++
++if v > x:
++    print(f'v={v} é maior que x={x}')
++elif x > v:
++    print(f'x={x} é maior que v={v}')
++else:
++    print(f'x={x} é igual a v={v}')
+\ No newline at end of file
+Index: DT260827/circulo.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DT260827/circulo.py b/DT260827/circulo.py
+new file mode 100644
+--- /dev/null	(date 1787872142659)
++++ b/DT260827/circulo.py	(date 1787872142659)
+@@ -0,0 +1,10 @@
++import math
++from traceback import print_tb
++
++print('########## Circunferência ##########')
++r = float(input('Digite Raio: '))
++p = math.pi * 2 * r
++area = math.pi * pow(r,2)
++print(f'Raio: {r}')
++print(f'Perímetro: {p:.2f}')
++print(f'Área: {round(area,2)}')
+\ No newline at end of file
